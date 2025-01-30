@@ -2,5 +2,5 @@
 
 int main()
 {
-    InitWindow(350, 100, "Hello!");
+    InitWindow(350, 200, "Hello!");
 }
