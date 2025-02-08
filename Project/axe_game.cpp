@@ -6,7 +6,7 @@ int main()
 	width = 350;
 	InitWindow(width, 200, "Sam's Window");
 
-	while (true)
+	while (WindowShouldClose() != true)
 	{
 		BeginDrawing();
 		ClearBackground(RED);
